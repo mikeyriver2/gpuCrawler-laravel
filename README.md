@@ -26,4 +26,4 @@ Php - Laravel - Equivalent of https://github.com/mikeyriver2/gpuCrawler
 
         return ($nodeValues);
 ```
-Laravel response time for 1 page ~ 350ms (2x the time of django)
+Laravel response time for 1 page ~ 350ms (2x the time of django). Most likely due to laravel performing more parsing in responses and inputs, which at makes data handling easier (for me at least)
